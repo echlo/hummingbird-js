@@ -11,7 +11,7 @@ and format specification.
 
 ```javascript
 const json = { foo: "bar" };
-const hbon = HummingBird.serialize({ foo: Hummingbird.Types.string }, json);
+const hbon = HummingBird.serialize(new Hummingbird.Schema({ foo: Hummingbird.Types.string }), json);
 ```
 
 ## Installing
