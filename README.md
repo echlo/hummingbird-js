@@ -20,7 +20,7 @@ Include the distribution javascript from the `dist` folder.
 
 ## Demo
 
-Here's an [online converter](docs/index.html)
+Here's an [online converter](https://echlo.github.io/hummingbird-js/)
 
 ## Development
 
