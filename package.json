@@ -1,0 +1,38 @@
+{
+  "name": "@echlo/hummingbird-js",
+  "version": "1.0.0",
+  "description": "A JS client for the Hummingbird protocol",
+  "main": "hummingbird.js",
+  "scripts": {
+    "webpack": "webpack",
+    "watch": "webpack --watch",    
+    "test": "jasmine"
+  },
+  "author": "Echlo, Inc.",
+  "license": "MIT",
+  "dependencies": {
+    "atob": "^2.0.3",
+    "btoa": "^1.1.2",
+    "long": "^3.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-core": "^6.9.0",
+    "babel-eslint": "^7.2",
+    "babel-loader": "^7.1",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2015-node": "^6.0.1",
+    "babel-preset-react": "^6.11.1",
+    "eslint": "^4.5",
+    "eslint-config-airbnb": "^15.1",
+    "eslint-plugin-import": "^2.7",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.3",
+    "jasmine": "^2.4.0",
+    "uglifyjs-webpack-plugin": "^1.0.0-beta.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
+}

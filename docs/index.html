@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Hummingbird | JSON -> HBON</title>
+    <meta name="description" content="JSON -> HBON converter">
+    <meta name="author" content="Echlo, Inc">
+    <link rel="stylesheet" href="./css/foundation.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+    <article class="container">
+    <h1>JSON -&gt; HBON</h1>
+    <section class="row">
+        <section class="col-6">
+            <h4>JSON</h4>
+            <textarea id="json-area" oninput="validate();">
+{
+    "hello": "world",
+    "foobar": 99,
+    "pi": 3.141529,
+    "deep-down": {
+        "fantastic": 4000,
+        "super": "man"
+    },
+    "awesome": true
+}
+            </textarea>
+            <div id="json-area-bytes" class="small"></div>
+        </section>
+        <section class="col-6">
+            <h4>HBON</h4>
+            <textarea id="hbon-area"></textarea>
+            <div id="hbon-area-bytes" class="small"></div>
+        </section>
+    </section>
+    <section id="type-inferer">
+    </section>
+    <section class="row cta">
+        <div class="col-6">
+            <button onclick="convert();">Convert</button>            
+        </div>        
+    </section>
+    </article>
+    <script src="../dist/index.js"></script>
+    <script src="./js/converter.js"></script>
+</body>
+
+</html>

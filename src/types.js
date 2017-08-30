@@ -1,0 +1,16 @@
+export const Types = {
+    uint8: 1,
+    int16: 2,
+    uint16: 3,
+    int32: 4,
+    uint32: 5,
+    int64: 6,
+    uint64: 7,
+    double: 8,
+    float: 9,
+    string: 10,
+    bool: 11,
+    array: 12,
+    object: 13,
+    guid: 14,
+};
