@@ -5,7 +5,7 @@ function convert() {
     const outputByteDiv = document.getElementById("hbon-area-bytes");
 
     const strippedInputText = inputText.replace(/[\ \n\t]/g, "");
-    var byteAmount = unescape(encodeURIComponent(strippedInputText)).length;
+    const byteAmount = unescape(encodeURIComponent(strippedInputText)).length;
     inputByteDiv.innerText = "Byte length: " + byteAmount;
 
     let inputObj;
@@ -32,7 +32,7 @@ function convert() {
 
 function getSchema() {
     const schemaObj = {};
-    const selectEls = document.getElementsByTagName("select");
+    const selectEls = Array.from(document.getElementsByTagName("select"));
     for (const el of selectEls) {        
         const value = el.options[el.selectedIndex].value;
         set(schemaObj, el.name, value);        
