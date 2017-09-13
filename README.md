@@ -4,8 +4,8 @@ This is an implementation of the Hummingbird parser and serializer for JavaScrip
 
 ## Synopsis
 
-Hummingbird is a binary serialization format. See the project page for more details
-and format specification.
+Hummingbird is a binary serialization format. See the [spec](https://github.com/echlo/hummingbird) 
+for details and format specification.
 
 ## Code Example
 
@@ -65,4 +65,4 @@ Current maintainer
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
